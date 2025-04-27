@@ -1,0 +1,25 @@
+---
+title: "UNICEF Data Report"
+author: Rushikesh Bodkhe
+format: 
+  html:
+    embed-resources: true
+    code-fold: true
+    theme: cosmo
+---
+
+# Introduction
+
+This report highlights key world issues identified by UNICEF data.
+
+# Data Overview
+
+The data contains world indicators regarding children's health, education, and well-being.
+
+# Data Preparation
+
+\`\`\`{r} library(tidyverse) library(ggplot2) library(sf)
+
+# Load data
+
+indicator1 \<- read_csv("unicef_indicator_1.csv") indicator2 \<- read_csv("unicef_indicator_2.csv") metadata \<- read_csv("unicef_metadata.csv")
